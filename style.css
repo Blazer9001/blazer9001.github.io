@@ -123,7 +123,7 @@ textarea {
 }
 
 .hellish-gif {
-    background-image: url('/eternalvoidofhell/fire.gif');
+    background-image: url('/assets/fire.gif');
     background-repeat: repeat-x;
     width: 100%;
     position: fixed;
