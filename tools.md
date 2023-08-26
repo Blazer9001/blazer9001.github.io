@@ -3,11 +3,10 @@ layout: default
 title: Tools
 permalink: /tools
 ---
-tools
------
+
+## tools
 
 assorted tools for the assorted person
-
 
 <br>
 <ul style="text-align:left; display: inline-block;">
