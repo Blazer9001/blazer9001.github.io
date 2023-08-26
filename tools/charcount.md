@@ -8,15 +8,8 @@ permalink: /tools/charcount
 
 ## charcount
 
-<p>ascii input only please</p>
+<p>returns number of characters</p>
 <br>
-<label for="decInput">Encode Text</label>
-<input type="text" id="decInput" onkeyup="b64Encode()" onkeydown="b64Encode()" onchange="b64Encode()">
+<textarea id="inputField" onkeyup="count()" onkeydown="count()" onchange="count()"></textarea>
 <br>
-<span id="enc"></span>
-<br>
-<br>
-<label for="encInput">Decode b64</label>
-<input type="text" id="encInput" onkeyup="b64Decode()" onkeydown="b64Decode()" onchange="b64Decode()">
-<br>
-<span id="dec"></span>
+<span id="output">0</span>
