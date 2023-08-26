@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: blazeriscool.dev
 ---
 
 ## i dont actually think he's really that cool
