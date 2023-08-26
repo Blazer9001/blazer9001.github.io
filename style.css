@@ -123,7 +123,7 @@ textarea {
 }
 
 .hellish-gif {
-    background-image: url('/assets/fire.gif');
+    background-image: url('/assets/images/fire.gif');
     background-repeat: repeat-x;
     width: 100%;
     position: fixed;
@@ -134,10 +134,10 @@ textarea {
 /* Style for fonts */
 @font-face {
     font-family: "Franklin Gothic Medium";
-    src: url("fonts/franklingothic.ttf");
+    src: url("assets/fonts/franklingothic.ttf");
 }
 
 @font-face {
     font-family: "Franklin Gothic Regular";
-    src: url("fonts/franklingothicregular.ttf");
+    src: url("assets/fonts/franklingothicregular.ttf");
 }
