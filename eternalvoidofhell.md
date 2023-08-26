@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: hell
 title: Eternal Void of Hell
 permalink: /eternalvoidofhell
 ---
-
-<script type="text/javascript" src="/scripts/hell.js"></script>
 
 ## eternal void of hell (complaint box)
 
