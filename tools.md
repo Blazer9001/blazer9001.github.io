@@ -8,8 +8,6 @@ tools
 
 assorted tools for the assorted person
 
-  
-
 *   [crc32](/tools/crc32)
 *   [hex flip](/tools/hexflip)
 *   [base64](/tools/base64)
