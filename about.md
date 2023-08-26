@@ -8,4 +8,4 @@ permalink: /about
 
 you dont need to know me
 
-for any inquiries please scream into the [eternal void of hell](/eternalvoidofhell/)
+<p>for any inquiries please scream into the <a href="/eternalvoidofhell/" style="text-decoration: underline;">eternal void of hell</a></p>
