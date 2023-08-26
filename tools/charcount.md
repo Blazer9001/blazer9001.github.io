@@ -1,6 +1,6 @@
 ---
 layout: default
-title: base64
+title: character count
 permalink: /tools/charcount
 ---
 
