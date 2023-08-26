@@ -3,6 +3,8 @@ layout: default
 title: CRC32
 permalink: /tools/crc32
 ---
+<script type="text/javascript" src="/scripts/crc32.js"></script>
+
 crc32
 -----
 
