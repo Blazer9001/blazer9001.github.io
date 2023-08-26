@@ -2,8 +2,8 @@
 layout: default
 title: Home
 ---
-i dont actually think he's really that cool
--------------------------------------------
+
+## i dont actually think he's really that cool
 
 he just does dumb stuff on the internet
 
