@@ -1,0 +1,143 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    font-family: "Franklin Gothic Medium";
+}
+
+/* Style for the navigation menu */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the main content */
+main {
+    padding: 2rem;
+    text-align: center;
+    font-family: "Franklin Gothic Regular", sans-serif;
+}
+
+main h2 {
+    margin-bottom: 1rem;
+    font-family: "Franklin Gothic Medium";
+}
+
+main a {
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #333;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main .bongos {
+    margin: auto;
+    width: 40%;
+    text-align: justify;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: "Franklin Gothic Regular", sans-serif;
+}
+
+/* Style for buttons / input */
+
+button {
+    margin: 1em;
+    width: 5em;
+    height: 2em;
+    font-family: "Franklin Gothic Regular", sans-serif;
+}
+
+input[type=text], input[type=number], select {
+    margin: 1em;
+    width: 15em;
+    height: 2em;
+    font-family: "Franklin Gothic Regular", sans-serif;
+}
+
+textarea {
+    min-height: 10em;
+    min-width: 15em;
+    max-height: 30em;
+    max-width: 45em;
+    font-family: "Franklin Gothic Regular", sans-serif;
+}
+
+/* Style for videos */
+
+.video {
+    margin: auto;
+    width: 50%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* Style for hell */
+
+.hell header, .hell a, .hell footer {
+    background-color: #880000;
+    color: #f2f2f2;
+}
+
+.hell {
+    background-color: #bb0000;
+    color: #f2f2f2;
+}
+
+.hellish-gif {
+    background-image: url('/eternalvoidofhell/fire.gif');
+    background-repeat: repeat-x;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* Style for fonts */
+@font-face {
+    font-family: "Franklin Gothic Medium";
+    src: url("fonts/franklingothic.ttf");
+}
+
+@font-face {
+    font-family: "Franklin Gothic Regular";
+    src: url("fonts/franklingothicregular.ttf");
+}
