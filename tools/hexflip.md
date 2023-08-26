@@ -1,0 +1,16 @@
+---
+layout: default
+title: hex flip
+permalink: /tools/hexflip
+---
+
+<script type="text/javascript" src="/scripts/flipHexBytes.js"></script>
+
+## hex flip
+
+<p>returns flipped hex bytes</p>
+<br>
+<label for="inputField">Input:</label>
+<input type="text" id="inputField" onkeyup="flipHexBytes()" onkeydown="flipHexBytes()" onchange="flipHexBytes()">
+<br>
+<span id="output"></span>
