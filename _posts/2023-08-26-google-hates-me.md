@@ -52,3 +52,11 @@ I deleted the MX, SPF, and DKIM records, and Google readded them. Solid stuff. I
 <br>
 
 I'm gonna keep waiting. That probably wont fix it but whatever.
+
+<br>
+
+Update 8/27/23 part 2: So it didn't get better, but now I'm looking at Cloudflare's email forwarding. Right now I'm working on how to use their nameservers.
+
+<br>
+
+Update 8/27/23 part 3: Holy shit I think it's working. It says the "Routing status" is syncing. I hope this works.
