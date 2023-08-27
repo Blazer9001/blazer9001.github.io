@@ -141,3 +141,35 @@ textarea {
     font-family: "Franklin Gothic Regular";
     src: url("assets/fonts/franklingothicregular.ttf");
 }
+
+/* Style for articles/posts */
+
+article{
+    background-color: #e2e2e2;
+    font-family: "Franklin Gothic Regular", sans-serif;
+    width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+}
+
+article h2 {
+    margin-bottom: 1rem;
+    font-family: "Franklin Gothic Medium";
+    text-align: center;
+}
+
+article img {
+    width: 100%;
+}
+
+article a {
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #333;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
