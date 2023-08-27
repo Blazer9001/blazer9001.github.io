@@ -6,7 +6,7 @@ permalink: /posts/:year/:month/:day/:title
 
 ## why does google hate me
 
-Arrrghh so I'm setting up an email alias for this site, so I can eventually use `blazer@blazeriscool.dev` as a thing people can stick in the [eternal void of hell](/eternalvoidofhell)
+Arrrghh so I'm setting up an email alias for this site, so I can eventually use `blazer@blazeriscool.dev` as a thing I can stick in the [eternal void of hell](/eternalvoidofhell)
 
 <br>
 
@@ -40,3 +40,15 @@ Alright so the solutions I've tried so far:
 <br>
 
 I'll post the solution if I ever find it. It'll probably just be waiting a day.
+
+<br>
+
+Update 8/27/23: It's a day later, and I've done a teeny bit more research. (The emails still bounce) but now I have a dmarc record. It did not solve anything.
+
+<br>
+
+I deleted the MX, SPF, and DKIM records, and Google readded them. Solid stuff. I want to say I can safely rule out it being some sort of DNS issue, but I can't be sure.
+
+<br>
+
+I'm gonna keep waiting. That probably wont fix it but whatever.
