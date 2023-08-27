@@ -60,3 +60,7 @@ Update 8/27/23 part 2: So it didn't get better, but now I'm looking at Cloudflar
 <br>
 
 Update 8/27/23 part 3: Holy shit I think it's working. It says the "Routing status" is syncing. I hope this works.
+
+<br>
+
+Update 8/27/23 final part: It works! I'm now also transferring the domain to Cloudflare because I want this all in the same place. God bless Matthew Prince.
