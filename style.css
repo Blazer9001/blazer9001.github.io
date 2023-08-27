@@ -163,6 +163,12 @@ article a:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+    .article {
+        width: 100%;
+    }
+}
+
 /* Style for fonts */
 @font-face {
     font-family: "Franklin Gothic Medium";
