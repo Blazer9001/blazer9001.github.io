@@ -131,17 +131,6 @@ textarea {
     left: 0;
 }
 
-/* Style for fonts */
-@font-face {
-    font-family: "Franklin Gothic Medium";
-    src: url("assets/fonts/franklingothic.ttf");
-}
-
-@font-face {
-    font-family: "Franklin Gothic Regular";
-    src: url("assets/fonts/franklingothicregular.ttf");
-}
-
 /* Style for articles/posts */
 
 article{
@@ -172,4 +161,15 @@ article a {
 
 article a:hover {
     text-decoration: underline;
+}
+
+/* Style for fonts */
+@font-face {
+    font-family: "Franklin Gothic Medium";
+    src: url("assets/fonts/franklingothic.ttf");
+}
+
+@font-face {
+    font-family: "Franklin Gothic Regular";
+    src: url("assets/fonts/franklingothicregular.ttf");
 }
