@@ -164,7 +164,7 @@ article a:hover {
 }
 
 @media (max-width: 768px) {
-    .article {
+    article {
         width: 100%;
     }
 }
