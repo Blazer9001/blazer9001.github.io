@@ -9,23 +9,11 @@
 </head>
 
 <body>
-    <header>
-        <h1 style="user-select: none;">blazer is cool.dev</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/tools">Tools</a></li>
-                <li><a href="/posts">Posts</a></li>
-            </ul>
-        </nav>
-    </header>
+    {% include header.html %}
     <main>
         {{ content }}
     </main>
-    <footer>
-        <p>Copyright © 2023</p>
-    </footer>
+    {% include footer.html %}
 </body>
 
 </html>
