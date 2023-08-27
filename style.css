@@ -163,7 +163,7 @@ article a:hover {
     text-decoration: underline;
 }
 
-@media (pointer:none), (pointer:coarse) {
+@media (any-pointer: coarse) {
     article {
         width: 100%;
     }
