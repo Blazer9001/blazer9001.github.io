@@ -11,4 +11,6 @@ permalink: /eternalvoidofhell
 <button class="hell" onclick="scream()">Burn</button>
 <br>
 <br>
-no really if you wanna contact me too bad
+no really if you wanna contact me go for it
+
+`blazer@blazeriscool.dev`
