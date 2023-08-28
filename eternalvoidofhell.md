@@ -13,4 +13,4 @@ permalink: /eternalvoidofhell
 <br>
 no really if you wanna contact me go for it
 
-`blazer@blazeriscool.dev`
+`{{site.email}}`
