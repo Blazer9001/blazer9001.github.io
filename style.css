@@ -92,6 +92,11 @@ input[type=text], input[type=number], select {
     font-family: "Franklin Gothic Regular", sans-serif;
 }
 
+input[type=color] {
+    width: 15em;
+    height: 1.5em;
+}
+
 textarea {
     min-height: 10em;
     min-width: 15em;
