@@ -1,0 +1,43 @@
+---
+layout: america
+title: vote
+permalink: /vote
+---
+
+<script type="text/javascript" src="/scripts/vote.js"></script>
+
+<h2>vote</h2>
+
+<p>please select an option below and thank you for participating</p>
+
+<br>
+<div style="text-align:left; display: inline-block;" id="ballotbox">
+    <input type="radio" id="leopard" name="vote_choice" value="Leopards eating people's faces party">
+    <label for="leopard">Leopards eating people's faces party</label><br>
+    
+    <input type="radio" id="icecream" name="vote_choice" value="𝘍 𝘙 𝘌 𝘌 𝘐 𝘊 𝘌 𝘊 𝘙 𝘌 𝘈 𝘔">
+    <label for="icecream">𝘍 𝘙 𝘌 𝘌 𝘐 𝘊 𝘌 𝘊 𝘙 𝘌 𝘈 𝘔</label><br>
+
+    <input type="radio" id="marianne" name="vote_choice" value="Marianne Williamson">
+    <label for="marianne">Marianne Williamson</label><br>
+
+    <input type="radio" id="votecolor" name="vote_choice" value="COLOR">
+    <input for="votecolor" type="color" value="#ff0000" id="votecolor111"><br>
+
+    <input type="radio" id="fileadd" name="vote_choice" value="IMAGE">
+    <input for="fileadd" type="file" accept="image/png, image/jpeg" id="fileadd111"><br>
+
+    <input type="radio" id="notab" name="vote_choice" value="None of the above" checked="true">
+    <label for="notab">None of the above</label><br>
+</div>
+
+<div style="display: none;" id="altdiv">
+    <p>Really? you voted for <label id="grunga"></label>?</p>
+    <br>
+    <img src="" id="glarno">
+</div>
+
+<br>
+<br>
+
+<button onclick="vote()" id="button">Cast Vote</button>
