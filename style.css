@@ -131,6 +131,12 @@ textarea {
     left: 0;
 }
 
+/* Style for America theme */
+.america {
+  background-image: linear-gradient(to right, #ff2000 , #f2f2f2, #0080ff);
+  color: #f2f2f2;
+}
+
 /* Style for articles/posts */
 
 article{
