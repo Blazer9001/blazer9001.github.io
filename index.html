@@ -5,7 +5,49 @@ title: blazeriscool.dev
 
 <h2>i dont actually think he's really that cool</h2>
 
-<p>another waste of bandwidth on the information superhighway</p>
+<code>
+    <span id="motd"></span>
+</code>
 
+<script>
+    var quotes = [
+        "another waste of bandwidth on the information superhighway",
+        "Excessus non est rebellio",
+        "For The Plot™",
+        "Running for President in 2016",
+        "We'll kill the fatted calf tonight so stick around",
+        "Closed the shop, sold the house, bought a ticket to the West Coast",
+        "You better have treated your better half better",
+        "Uno, dos, tres, cuatro, cinco, cinco, seis",
+        "Send lawyers guns and money Dad, get me out of this",
+        "If I could be wasting my time with you",
+        "I can't be right for somebody else if I'm not right for me",
+        "And if our love was just a circus, you'd be a clown by now",
+        "I got a one-track mind and a good reputation laying on the line",
+        "No one in the world ever gets what they want, and that is beautiful",
+        "Do you feel alright with the days gone by?",
+        "\"Carole Baskin killed her husband\"",
+        "And so it goes, and you're the only one who knows",
+        "Someday mother will die and I'll get the money",
+        "秘密を知りたい",
+        "Double helix in the sky tonight",
+        "All your life is Time Magazine, I read it too, What does it mean?",
+        "Mars ain't the kind of place to raise your kids",
+        "Don't you love the farce? My fault, I fear",
+        "God only knows what I'd be without you",
+        "In the corner of my eye I saw you in Rudy's, you were very high",
+        "When the jazzman's testifyin' a faithless man believes",
+        "If I stop now call me a quitter, if lies were cats you'd be a litter",
+        "You're where you should be all the time",
+        "Control for smiler's can't be bought, the solar garlic starts to rot",
+        "This is not my beautiful house",
+        "And you try to make amends but you're better off as friends"
+    ];
+    var quoteNum = Math.floor(Math.random() * quotes.length);
+    var quote = quotes[quoteNum];
+    document.getElementById("motd").textContent = quote;
+</script>
+
+<br>
 <br>
 <p>check out some of the <a href="/tools" style="text-decoration: underline;">tools</a></p>
