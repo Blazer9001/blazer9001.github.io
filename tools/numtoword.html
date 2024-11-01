@@ -1,0 +1,16 @@
+---
+layout: default
+title: num to word
+permalink: /tools/numtoword
+---
+
+<script type="text/javascript" src="/scripts/numtoword.js"></script>
+
+<h2>number to word</h2>
+
+<p>works up to 999999999999</p>
+
+<label for="inputField">Input:</label>
+<input min="0" max="999999999999" type="number" id="inputField" onkeyup="numberToWords()" onkeydown="numberToWords()" onchange="numberToWords()">
+<br>
+<span id="output"></span>
