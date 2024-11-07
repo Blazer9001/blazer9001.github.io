@@ -43,7 +43,6 @@ main {
 
 main h2 {
     margin-bottom: 1rem;
-    font-family: "Franklin Gothic Medium";
 }
 
 main a {
@@ -152,12 +151,6 @@ article{
     margin-left: auto;
     margin-right: auto;
     min-height: 100vh;
-}
-
-article h2 {
-    margin-bottom: 1rem;
-    font-family: "Franklin Gothic Medium";
-    text-align: center;
 }
 
 article img {
